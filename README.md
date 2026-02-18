@@ -2,7 +2,7 @@
 
 An intelligent tool that analyzes your resume against a job description using NLP techniques — gives you a match score, skill gap insights, recommended job roles, and actionable career advice.
 
-![AI Resume Analyzer Demo](https://via.placeholder.com/800x450.png?text=AI+Resume+Analyzer+Screenshot)  
+![AI Resume Analyzer Demo](http://localhost:8501/}  
 *(Add your real screenshot here later)*
 
 ## ✨ Features
