@@ -1,0 +1,16 @@
+# Core web app framework
+streamlit>=1.38.0
+
+# PDF text extraction
+PyPDF2>=3.0.0
+# or: pdfplumber>=0.11.0    ← often better quality, choose one
+
+# Text processing & similarity
+scikit-learn>=1.5.0         # for TfidfVectorizer + cosine_similarity
+
+# Optional but very useful / common in such projects
+nltk>=3.8.1                 # if you use word tokenization / stopwords / lemmatization
+python-docx>=1.1.0          # in case you want to support .docx resumes later
+spacy>=3.7.0
+# Only if you're deploying (render, railway, streamlit cloud, etc.)
+# gunicorn>=22.0.0           ← usually needed for non-Streamlit-native hosting
